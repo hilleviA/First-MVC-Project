@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MVCApp.Models.Movies>
+@{
+    ViewData["Title"] = "Start";
+}
+
+<h2>Betygsatta Filmer</h2>
+<main>
+    <a asp-controller="Home" asp-action="Movies" class="button">Lägg till ny film</a>
+    <table id="movieTable">
+        <thead>
+            <tr>
+                <th>Titel</th>
+                <th>Genre</th>
+                <th>Release år</th>
+                <th>Datum då filmen sågs</th>
+                <th>Betyg</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Title</td>
+                    <td>@movie.Genre</td>
+                    <td>@movie.ReleaseYear</td>
+                    <td>@movie.ViewDate</td>
+                    <td>@movie.Raiting</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+</main>
+
+
+
+
+
+
+

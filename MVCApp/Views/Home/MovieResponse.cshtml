@@ -1,0 +1,21 @@
+﻿@model MVCApp.Models.Movies
+
+@{
+    ViewData["Title"] = "Tillagd Film";
+}
+
+<main>
+    <p class="bold">@ViewBag.ResponseMessage</p>
+    <p>@Model.Title</p>
+
+
+    <p class="bold">Ditt betyg:</p>
+    <h3>@Model.Raiting</h3>
+
+    <div class="links">
+        <a asp-controller="Home" asp-action="Index" class="button">Se alla filmer</a>
+        <a asp-controller="Home" asp-action="Movies" class="button">Lägg till ny film. </a>
+    </div>
+    
+</main>
+

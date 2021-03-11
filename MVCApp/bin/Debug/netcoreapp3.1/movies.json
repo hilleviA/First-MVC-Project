@@ -1,0 +1,51 @@
+[
+  {
+    "Title": "American Phsyco",
+    "Genre": "Thriller",
+    "ReleaseYear": "1999",
+    "ViewDate": "2020-08-01T00:00:00",
+    "Raiting": 5
+  },
+  {
+    "Title": "Pulp Fiction",
+    "Genre": "Thriller",
+    "ReleaseYear": "1994",
+    "ViewDate": "2020-10-22T00:00:00",
+    "Raiting": 5
+  },
+  {
+    "Title": "Titanic",
+    "Genre": "Drama",
+    "ReleaseYear": "1997",
+    "ViewDate": "2020-08-07T00:00:00",
+    "Raiting": 4
+  },
+  {
+    "Title": "Zootopia",
+    "Genre": "Animerat",
+    "ReleaseYear": "2015",
+    "ViewDate": "2020-08-07T00:00:00",
+    "Raiting": 4
+  },
+  {
+    "Title": "Thor",
+    "Genre": "Äventyr Action",
+    "ReleaseYear": "2017",
+    "ViewDate": "2020-08-07T00:00:00",
+    "Raiting": 5
+  },
+  {
+    "Title": "Mad Max Fury Road",
+    "Genre": "Action",
+    "ReleaseYear": "2015",
+    "ViewDate": "2021-03-01T00:00:00",
+    "Raiting": 5
+  },
+  {
+    "Title": "Det levande slottet",
+    "Genre": "Animé",
+    "ReleaseYear": "1997",
+    "ViewDate": "2021-03-10T00:00:00",
+    "Raiting": 5
+  }
+]

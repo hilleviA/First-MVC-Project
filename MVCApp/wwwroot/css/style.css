@@ -1,0 +1,137 @@
+﻿/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* MAIN SETTINGS */
+
+body {
+    font-family: Recursive;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #360317;
+    padding: 20px;
+    color: #FFF;
+}
+
+#wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+main {
+    width: 80%;
+    margin: 75px auto;
+}
+
+/* KLASSER */
+
+.button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #C72B00;
+    color: #FFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
+/* FORMULÄR */
+
+form {
+    width: 60%;
+    margin: 15px auto;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type=text] {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    width: 95%;
+}
+
+input[type=number] {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    width: 95%;
+}
+
+input[type=date] {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    width: 95%;
+}
+
+input[type=submit] {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #360317;
+    color: #FFF;
+}
+
+/* TABLE */
+/* Stylar table och tar bort border */
+table {
+    width: 100%;
+    border: 1px solid #110033;
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+/* Sätter padding och övrig styling på th och td */
+
+th {
+    padding: 7px;
+    background-color: #360317;
+    color: white;
+    text-align: left;
+}
+
+td {
+    padding: 7px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #E7B0FF;
+}

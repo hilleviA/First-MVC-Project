@@ -1,0 +1,40 @@
+﻿
+@model MVCApp.Models.Movies
+@{
+    ViewData["Title"] = "Filmer";
+}
+
+<main>
+    <h2>Lägg till ny film</h2>
+    <form method="post">
+        <label asp-for="Title"></label><br />
+        <input asp-for="Title" />
+        <span asp-validation-for="Title" class="errorMessage"></span>
+        <br />
+        <label asp-for="Genre"></label><br />
+        <input asp-for="Genre" />
+        <span asp-validation-for="Genre" class="errorMessage"></span>
+        <br />
+        <label asp-for="ReleaseYear"></label><br />
+        <input asp-for="ReleaseYear" />
+        <span asp-validation-for="ReleaseYear" class="errorMessage"></span>
+        <br />
+        <label asp-for="ViewDate"></label><br />
+        <input asp-for="ViewDate" />
+        <span asp-validation-for="ViewDate" class="errorMessage"></span>
+        <br />
+        <label asp-for="Raiting"></label><br />
+        <input asp-for="Raiting" />
+        <span asp-validation-for="Raiting" class="errorMessage"></span>
+        <br />
+        <input type="submit" value="Lägg till film" />
+    </form>
+   
+    <div class="links">
+        <a asp-controller="Home" asp-action="Index" class="button">Gå tillbaka</a>
+    </div>
+    
+</main>
+
+
+
